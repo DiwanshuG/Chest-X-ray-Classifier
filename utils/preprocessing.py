@@ -3,8 +3,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import os
 
-MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)),
-                          "FineTuned_DenseNet221[0.94486].h5")
+MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)),"model_tf220.h5")
 
 
 model = load_model(MODEL_PATH)

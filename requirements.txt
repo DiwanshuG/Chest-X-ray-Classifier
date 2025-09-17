@@ -1,6 +1,6 @@
 streamlit==1.38.0
-tensorflow==2.19.0
+tensorflow==2.20.0
 keras==3.10.0
 numpy==2.0.2
 pillow==10.4.0
-protobuf<5.0.0
+protobuf>=5.28.0,<6
