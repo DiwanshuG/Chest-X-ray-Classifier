@@ -24,7 +24,7 @@ if uploaded_file is not None:
     st.image(uploaded_file, caption="Uploaded X-ray", use_column_width=True)
     st.write("---")
 
-    if st.button("🔍 Analyse X-ray"):
+    if st.button("🔍 Predict"):
         # Call your prediction function
         label, probs = predict_xray(uploaded_file)
 
