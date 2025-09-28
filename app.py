@@ -40,8 +40,6 @@ if uploaded_file is not None:
         st.bar_chart(df)
 
 # ------------------ FOOTER ------------------
-st.write("---")
-# Footer
 st.markdown("""
     <hr>
     <p style='text-align: center; font-size:16px;'>Created by <b>Diwanshu</b> with ❤️</p>
