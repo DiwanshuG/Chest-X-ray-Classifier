@@ -5,7 +5,7 @@ A deep learning project that classifies chest X-ray images into **Pneumonia**, *
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Programming Language:** Python  
 - **Deep Learning Frameworks:** TensorFlow
@@ -15,7 +15,7 @@ A deep learning project that classifies chest X-ray images into **Pneumonia**, *
 
 ---
 
-## 🚀 Features
+## Features
 
 - Classifies chest X-ray images into **three categories**: Pneumonia, TB, Normal.  
 - Initially trained using **EfficientNet**.  
